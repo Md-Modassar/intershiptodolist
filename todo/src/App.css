@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  display: flex;
+  position: absolute;
+  top: 6%;
+  font-size:larger;
+  color: rgb(252, 201, 138);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+  display: flex;
+ flex-direction: column;
+  height: 80%;
+  width: 20%;
+  background: rgb(224, 223, 223);
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.add{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  gap: 10px;
+
+}
+.add input{
+  height: 80%;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+.add button{
+ height: 80%;
+ width: 30%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  background: rgb(1, 252, 1);
+  color: rgb(251, 251, 251);
+  font-weight: 200;
+  
+ 
+}
+.todo{
+  display: flex;
+  height: 30px;
+  width: 200px;
+  background: rgb(2, 185, 164);
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.ri-delete-bin-6-fill{
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  color: red;
+}
+.ri-pencil-fill{
+  display: flex;
+  position: absolute;
+  right: 30%;
+  top: 20%;
+  color: rgb(0, 55, 255);
+}
